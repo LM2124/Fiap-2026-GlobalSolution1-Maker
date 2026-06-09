@@ -9,21 +9,15 @@
 | Leonardo Schunck Rainha | RM 99902  |
 | Kayky Oliveira Schunck  | RM 99756  |
 
----
-
 ## Descrição do Projeto
 
 Este projeto simula um braço robótico utilizado em missões espaciais para operações de coleta e recuperação de amostras em ambientes de microgravidade.
 
 O sistema foi desenvolvido utilizando um Arduino Uno, dois servomotores e um LED de status. O controle é realizado através do Monitor Serial, permitindo ao operador movimentar o braço robótico e controlar a garra por meio de comandos de teclado.
 
----
-
 ## Objetivo
 
 Demonstrar o funcionamento de um sistema robótico simples para operações de coleta de amostras em ambiente espacial, utilizando controle via Monitor Serial e atuadores simulados através de servomotores.
-
----
 
 ## Componentes Utilizados
 
@@ -42,8 +36,6 @@ Os servomotores foram alimentados com 5 V, conforme especificado no enunciado do
 
 Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 V e GND para aumentar a estabilidade da alimentação dos servos e evitar quedas de tensão durante movimentos simultâneos.
 
----
-
 ## Estrutura do Sistema
 
 | Componente           | Função                                             |
@@ -51,8 +43,6 @@ Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 
 | Servo do Braço (D9)  | Controla a articulação principal do braço robótico |
 | Servo da Garra (D10) | Controla a abertura e fechamento da garra          |
 | LED de Status (D7)   | Indica o estado da garra                           |
-
----
 
 ## Ligações Utilizadas
 
@@ -63,16 +53,6 @@ Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 
 | LED de Status          | D7           |
 | Alimentação dos Servos | 5 V          |
 | GND dos Servos         | GND          |
-
----
-
-## Link do Projeto
-
-Wokwi:
-
-https://wokwi.com/projects/466319899097470977
-
----
 
 ## Como Executar a Simulação
 
@@ -97,21 +77,15 @@ Digite um dos comandos abaixo e pressione Enter.
 | O       | Abre a garra            |
 | C       | Fecha a garra           |
 
----
-
-## Exemplo de Operação
-
-### Captura de uma Amostra
+## Exemplo de Operação - Captura de uma Amostra
 
 1. Digite **U** para elevar o braço.
 2. Digite **U** novamente para aproximar o braço da amostra.
 3. Digite **O** para abrir a garra.
 4. Digite **C** para fechar a garra.
-5. O LED acenderá indicando que a garra encontra-se fechada.
+   > O LED acenderá indicando que a garra encontra-se fechada.
 6. Digite **D** para iniciar o retorno.
 7. Digite **D** novamente para retornar à posição inicial.
-
----
 
 ## Indicação do LED
 
@@ -120,50 +94,35 @@ Digite um dos comandos abaixo e pressione Enter.
 | LED Apagado | Garra aberta  |
 | LED Aceso   | Garra fechada |
 
----
-
 ## Funcionamento Geral
 
 O braço robótico inicia em posição neutra. Através do Monitor Serial, o operador pode movimentar a articulação principal do braço utilizando os comandos U e D, enquanto os comandos O e C controlam a abertura e fechamento da garra.
 
 O LED de status fornece uma indicação visual do estado atual da garra, auxiliando na operação do sistema durante a simulação.
 
----
 
-## Videos e imagens
+# Videos e imagens
 
-# Movimentos da Garra
+## Movimentos da Garra
 
 Este vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor:
 
 <img src="images/claw_movement.gif" alt="Movimento da garra" width="100%">
 
-# Imagens da Garra
+## Imagens da Garra
 
 As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
 
-<img src="images/claw1.png" alt="Garra" width="500">
-<img src="images/claw2.png" alt="Garra" width="500">
-<img src="images/claw3.png" alt="Garra" width="500">
+<img src="images/claw1.png" alt="Garra" width="33%">
+<img src="images/claw2.png" alt="Garra" width="33%">
+<img src="images/claw3.png" alt="Garra" width="33%">
 
-# Simulação Wokwi
+## Simulação do Circuito
 
-Este vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle do braço robótico e a indicação do estado da garra pelo LED.
-
-<img src="images/wokwi_simulacao_operacao.gif" alt="Simulação Wokwi" width="100%">
-
-# Imagens do Wokwi
-
-A imagem mostra a montagem completa da simulação, incluindo o Arduino Uno, os dois servomotores, o LED, o resistor, a protoboard e as conexões elétricas.
-
-<img src="images/wokwi_layout.png" alt="Layout Wokwi" width="500">
+O projeto Wokwi pode ser encontrado no link: https://wokwi.com/projects/466319899097470977
 
 ---
 
-## Biblioteca Utilizada
+O vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle dos dois servomotores braço robótico e a indicação do estado da garra pelo LED:
 
-```cpp
-#include <Servo.h>
-```
-
-Biblioteca padrão da plataforma Arduino para controle de servomotores.
+<img src="images/wokwi_simulacao_operacao.gif" alt="Simulação Wokwi" width="100%">

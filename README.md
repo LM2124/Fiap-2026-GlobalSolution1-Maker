@@ -134,7 +134,11 @@ O LED de status fornece uma indicação visual do estado atual da garra, auxilia
 
 # Movimentos da Garra 
 
-<video src="images/claw_movement.mp4" controls width="100%"></video>
+[Abrir vídeo da garra](images/claw_movement.mp4)
+
+<video src="images/claw_movement.mp4" controls width="100%">
+Seu navegador não conseguiu exibir o vídeo. Use o link acima.
+</video>
 
 # Imagens da Garra 
 
@@ -144,7 +148,11 @@ O LED de status fornece uma indicação visual do estado atual da garra, auxilia
 
 # Simulação Wokwi
 
-<video src="images/wokwi_simulacao_operacao.mp4" controls width="100%"></video>
+[Abrir vídeo da simulação Wokwi](images/wokwi_simulacao_operacao.mp4)
+
+<video src="images/wokwi_simulacao_operacao.mp4" controls width="100%">
+Seu navegador não conseguiu exibir o vídeo. Use o link acima.
+</video>
 
 # Imagens do Wokwi
 

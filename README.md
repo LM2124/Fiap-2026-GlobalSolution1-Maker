@@ -27,9 +27,11 @@ Este vídeo mostra o funcionamento da garra do braço robótico, destacando os m
 
 As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
 
-<img src="images/claw1.png" alt="Garra" width="33%">
-<img src="images/claw2.png" alt="Garra" width="33%">
-<img src="images/claw3.png" alt="Garra" width="33%">
+<p float="left" align="middle">
+   <img src="images/claw1.png" alt="Garra" width="32%">
+   <img src="images/claw2.png" alt="Garra" width="32%">
+   <img src="images/claw3.png" alt="Garra" width="32%">
+</p>
 
 ## Simulação do Circuito
 

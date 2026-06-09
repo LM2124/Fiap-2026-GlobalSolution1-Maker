@@ -132,17 +132,13 @@ O LED de status fornece uma indicação visual do estado atual da garra, auxilia
 
 ## Videos e imagens
 
-# Movimentos da Garra 
+# Movimentos da Garra
 
-[Abrir vídeo da garra](images/claw_movement.mp4)
+Este vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor:
 
-O vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor.
+<img src="images/claw_movement.gif" alt="Movimento da garra" width="100%">
 
-<video src="images/claw_movement.mp4" controls width="100%">
-Seu navegador não conseguiu exibir o vídeo. Use o link acima.
-</video>
-
-# Imagens da Garra 
+# Imagens da Garra
 
 As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
 
@@ -152,13 +148,9 @@ As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua es
 
 # Simulação Wokwi
 
-O vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle do braço robótico e a indicação do estado da garra pelo LED.
+Este vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle do braço robótico e a indicação do estado da garra pelo LED.
 
-[Abrir vídeo da simulação Wokwi](images/wokwi_simulacao_operacao.mp4)
-
-<video src="images/wokwi_simulacao_operacao.mp4" controls width="100%">
-Seu navegador não conseguiu exibir o vídeo. Use o link acima.
-</video>
+<img src="images/wokwi_simulacao_operacao.gif" alt="Simulação Wokwi" width="100%">
 
 # Imagens do Wokwi
 

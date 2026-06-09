@@ -70,7 +70,7 @@ Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 
 
 Wokwi:
 
-https://wokwi.com/projects/466350715864882177
+https://wokwi.com/projects/466319899097470977
 
 ---
 

@@ -134,21 +134,21 @@ O LED de status fornece uma indicação visual do estado atual da garra, auxilia
 
 # Movimentos da Garra 
 
-<video src="LM2124/Fiap-2026-GlobalSolution1-Maker/images/claw_movement.mp4" controls width="100%"></video>
+<video src="images/claw_movement.mp4" controls width="100%"></video>
 
 # Imagens da Garra 
 
-<img src="LM2124/Fiap-2026-GlobalSolution1-Maker/images/claw1.png" alt="Garra" width="500">
-<img src="LM2124/Fiap-2026-GlobalSolution1-Maker/images/claw2.png" alt="Garra" width="500">
-<img src="LM2124/Fiap-2026-GlobalSolution1-Maker/images/claw3.png" alt="Garra" width="500">
+<img src="images/claw1.png" alt="Garra" width="500">
+<img src="images/claw2.png" alt="Garra" width="500">
+<img src="images/claw3.png" alt="Garra" width="500">
 
 # Simulação Wokwi
 
-<video src="LM2124/Fiap-2026-GlobalSolution1-Maker/images/wokwi_simulacao_operacao.mp4" controls width="100%"></video>
+<video src="images/wokwi_simulacao_operacao.mp4" controls width="100%"></video>
 
 # Imagens do Wokwi
 
-<img src="LM2124/Fiap-2026-GlobalSolution1-Maker/images/wokwi_layout.png" alt="Layout Wokwi" width="500">
+<img src="images/wokwi_layout.png" alt="Layout Wokwi" width="500">
 
 ---
 

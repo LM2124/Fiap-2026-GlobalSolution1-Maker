@@ -19,40 +19,40 @@ O sistema foi desenvolvido utilizando um Arduino Uno, dois servomotores e um LED
 
 Demonstrar o funcionamento de um sistema robótico simples para operações de coleta de amostras em ambiente espacial, utilizando controle via Monitor Serial e atuadores simulados através de servomotores.
 
-## Componentes Utilizados
+# Videos e imagens
 
-| Componente          |
-| ------------------- |
-| Arduino Uno         |
-| 2 Servomotores      |
-| 1 LED               |
-| 1 Resistor de 220 Ω |
-| Protoboard          |
-| Jumpers             |
+## Movimentos da Garra
 
-### Observação Técnica
+Este vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor:
 
-Os servomotores foram alimentados com 5 V, conforme especificado no enunciado do projeto.
+<img src="images/claw_movement.gif" alt="Movimento da garra" width="100%">
 
-Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 V e GND para aumentar a estabilidade da alimentação dos servos e evitar quedas de tensão durante movimentos simultâneos.
+## Imagens da Garra
 
-## Estrutura do Sistema
+As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
 
-| Componente           | Função                                             |
-| -------------------- | -------------------------------------------------- |
-| Servo do Braço (D9)  | Controla a articulação principal do braço robótico |
-| Servo da Garra (D10) | Controla a abertura e fechamento da garra          |
-| LED de Status (D7)   | Indica o estado da garra                           |
+<img src="images/claw1.png" alt="Garra" width="33%">
+<img src="images/claw2.png" alt="Garra" width="33%">
+<img src="images/claw3.png" alt="Garra" width="33%">
 
-## Ligações Utilizadas
+## Simulação do Circuito
 
-| Componente             | Pino Arduino |
-| ---------------------- | ------------ |
-| Servo do Braço         | D9           |
-| Servo da Garra         | D10          |
-| LED de Status          | D7           |
-| Alimentação dos Servos | 5 V          |
-| GND dos Servos         | GND          |
+O vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle dos dois servomotores braço robótico e a indicação do estado da garra pelo LED:
+
+<img src="images/wokwi_simulacao_operacao.gif" alt="Simulação Wokwi" width="100%">
+
+O projeto Wokwi pode ser encontrado no link: https://wokwi.com/projects/466319899097470977
+
+## Funcionamento Geral
+
+O braço robótico inicia em posição neutra. Através do Monitor Serial, o operador pode movimentar a articulação principal do braço utilizando os comandos U e D, enquanto os comandos O e C controlam a abertura e fechamento da garra.
+
+O LED de status fornece uma indicação visual do estado atual da garra, auxiliando na operação do sistema durante a simulação:
+
+| Estado      | Significado   |
+| ----------- | ------------- |
+| LED Apagado | Garra aberta  |
+| LED Aceso   | Garra fechada |
 
 ## Como Executar a Simulação
 
@@ -87,42 +87,37 @@ Digite um dos comandos abaixo e pressione Enter.
 6. Digite **D** para iniciar o retorno.
 7. Digite **D** novamente para retornar à posição inicial.
 
-## Indicação do LED
+## Componentes Utilizados
 
-| Estado      | Significado   |
-| ----------- | ------------- |
-| LED Apagado | Garra aberta  |
-| LED Aceso   | Garra fechada |
+| Componente          |
+| ------------------- |
+| Arduino Uno         |
+| 2 Servomotores      |
+| 1 LED               |
+| 1 Resistor de 220 Ω |
+| Protoboard          |
+| Jumpers             |
 
-## Funcionamento Geral
+### Observação Técnica
 
-O braço robótico inicia em posição neutra. Através do Monitor Serial, o operador pode movimentar a articulação principal do braço utilizando os comandos U e D, enquanto os comandos O e C controlam a abertura e fechamento da garra.
+Os servomotores foram alimentados com 5 V, conforme especificado no enunciado do projeto.
 
-O LED de status fornece uma indicação visual do estado atual da garra, auxiliando na operação do sistema durante a simulação.
+Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 V e GND para aumentar a estabilidade da alimentação dos servos e evitar quedas de tensão durante movimentos simultâneos.
 
+## Estrutura do Sistema
 
-# Videos e imagens
+| Componente           | Função                                             |
+| -------------------- | -------------------------------------------------- |
+| Servo do Braço (D9)  | Controla a articulação principal do braço robótico |
+| Servo da Garra (D10) | Controla a abertura e fechamento da garra          |
+| LED de Status (D7)   | Indica o estado da garra                           |
 
-## Movimentos da Garra
+## Ligações Utilizadas
 
-Este vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor:
-
-<img src="images/claw_movement.gif" alt="Movimento da garra" width="100%">
-
-## Imagens da Garra
-
-As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
-
-<img src="images/claw1.png" alt="Garra" width="33%">
-<img src="images/claw2.png" alt="Garra" width="33%">
-<img src="images/claw3.png" alt="Garra" width="33%">
-
-## Simulação do Circuito
-
-O projeto Wokwi pode ser encontrado no link: https://wokwi.com/projects/466319899097470977
-
----
-
-O vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle dos dois servomotores braço robótico e a indicação do estado da garra pelo LED:
-
-<img src="images/wokwi_simulacao_operacao.gif" alt="Simulação Wokwi" width="100%">
+| Componente             | Pino Arduino |
+| ---------------------- | ------------ |
+| Servo do Braço         | D9           |
+| Servo da Garra         | D10          |
+| LED de Status          | D7           |
+| Alimentação dos Servos | 5 V          |
+| GND dos Servos         | GND          |

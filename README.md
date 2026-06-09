@@ -1,14 +1,5 @@
 # Braço Robótico de Coleta de Amostras (Docking & Retrieval)
 
-## Integrantes
-
-| Nome                    | RM        |
-| ----------------------- | --------- |
-| Lucas Moreno            | RM 97158  |
-| Lorenzo Gomes           | RM 551117 |
-| Leonardo Schunck Rainha | RM 99902  |
-| Kayky Oliveira Schunck  | RM 99756  |
-
 ## Descrição do Projeto
 
 Este projeto simula um braço robótico utilizado em missões espaciais para operações de coleta e recuperação de amostras em ambientes de microgravidade.
@@ -19,15 +10,20 @@ O sistema foi desenvolvido utilizando um Arduino Uno, dois servomotores e um LED
 
 Demonstrar o funcionamento de um sistema robótico simples para operações de coleta de amostras em ambiente espacial, utilizando controle via Monitor Serial e atuadores simulados através de servomotores.
 
-# Videos e imagens
+## Integrantes
 
-## Movimentos da Garra
+| Nome                    | RM        |
+| ----------------------- | --------- |
+| Lucas Moreno            | RM 97158  |
+| Lorenzo Gomes           | RM 551117 |
+| Leonardo Schunck Rainha | RM 99902  |
+| Kayky Oliveira Schunck  | RM 99756  |
+
+## Garra Robótica
 
 Este vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor:
 
 <img src="images/claw_movement.gif" alt="Movimento da garra" width="100%">
-
-## Imagens da Garra
 
 As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
 
@@ -45,7 +41,7 @@ O projeto Wokwi pode ser encontrado no link: https://wokwi.com/projects/46631989
 
 ## Funcionamento Geral
 
-O braço robótico inicia em posição neutra. Através do Monitor Serial, o operador pode movimentar a articulação principal do braço utilizando os comandos U e D, enquanto os comandos O e C controlam a abertura e fechamento da garra.
+O braço robótico inicia em posição neutra. Através do Monitor Serial, o operador pode movimentar a articulação principal do braço utilizando os comandos `U` e `D`, enquanto os comandos `O` e `C` controlam a abertura e fechamento da garra.
 
 O LED de status fornece uma indicação visual do estado atual da garra, auxiliando na operação do sistema durante a simulação:
 
@@ -77,7 +73,7 @@ Digite um dos comandos abaixo e pressione Enter.
 | O       | Abre a garra            |
 | C       | Fecha a garra           |
 
-## Exemplo de Operação - Captura de uma Amostra
+### Exemplo de Operação - Captura de uma Amostra
 
 1. Digite **U** para elevar o braço.
 2. Digite **U** novamente para aproximar o braço da amostra.
@@ -87,7 +83,13 @@ Digite um dos comandos abaixo e pressione Enter.
 6. Digite **D** para iniciar o retorno.
 7. Digite **D** novamente para retornar à posição inicial.
 
-## Componentes Utilizados
+## Especificações Técnicas
+
+Os servomotores foram alimentados com 5 V, conforme especificado no enunciado do projeto.
+
+Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 V e GND para aumentar a estabilidade da alimentação dos servos e evitar quedas de tensão durante movimentos simultâneos.
+
+### Componentes Utilizados
 
 | Componente          |
 | ------------------- |
@@ -98,13 +100,7 @@ Digite um dos comandos abaixo e pressione Enter.
 | Protoboard          |
 | Jumpers             |
 
-### Observação Técnica
-
-Os servomotores foram alimentados com 5 V, conforme especificado no enunciado do projeto.
-
-Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 V e GND para aumentar a estabilidade da alimentação dos servos e evitar quedas de tensão durante movimentos simultâneos.
-
-## Estrutura do Sistema
+### Estrutura do Sistema
 
 | Componente           | Função                                             |
 | -------------------- | -------------------------------------------------- |
@@ -112,7 +108,7 @@ Em aplicações reais, recomenda-se utilizar um capacitor eletrolítico entre 5 
 | Servo da Garra (D10) | Controla a abertura e fechamento da garra          |
 | LED de Status (D7)   | Indica o estado da garra                           |
 
-## Ligações Utilizadas
+### Ligações Utilizadas
 
 | Componente             | Pino Arduino |
 | ---------------------- | ------------ |

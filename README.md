@@ -136,17 +136,23 @@ O LED de status fornece uma indicação visual do estado atual da garra, auxilia
 
 [Abrir vídeo da garra](images/claw_movement.mp4)
 
+O vídeo mostra o funcionamento da garra do braço robótico, destacando os movimentos de abertura e fechamento realizados pelo servomotor.
+
 <video src="images/claw_movement.mp4" controls width="100%">
 Seu navegador não conseguiu exibir o vídeo. Use o link acima.
 </video>
 
 # Imagens da Garra 
 
+As imagens exibem diferentes ângulos do modelo 3D da garra, evidenciando sua estrutura mecânica, os dentes de apoio e o sistema de engrenagens conectado ao motor.
+
 <img src="images/claw1.png" alt="Garra" width="500">
 <img src="images/claw2.png" alt="Garra" width="500">
 <img src="images/claw3.png" alt="Garra" width="500">
 
 # Simulação Wokwi
+
+O vídeo apresenta a simulação do projeto em funcionamento no Wokwi, mostrando o controle do braço robótico e a indicação do estado da garra pelo LED.
 
 [Abrir vídeo da simulação Wokwi](images/wokwi_simulacao_operacao.mp4)
 
@@ -155,6 +161,8 @@ Seu navegador não conseguiu exibir o vídeo. Use o link acima.
 </video>
 
 # Imagens do Wokwi
+
+A imagem mostra a montagem completa da simulação, incluindo o Arduino Uno, os dois servomotores, o LED, o resistor, a protoboard e as conexões elétricas.
 
 <img src="images/wokwi_layout.png" alt="Layout Wokwi" width="500">
 

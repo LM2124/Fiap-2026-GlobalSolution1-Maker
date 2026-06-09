@@ -1,7 +1,5 @@
 # Braço Robótico de Coleta de Amostras (Docking & Retrieval)
 
-## Descrição do Projeto
-
 Este projeto simula um braço robótico utilizado em missões espaciais para operações de coleta e recuperação de amostras em ambientes de microgravidade.
 
 O sistema foi desenvolvido utilizando um Arduino Uno, dois servomotores e um LED de status. O controle é realizado através do Monitor Serial, permitindo ao operador movimentar o braço robótico e controlar a garra por meio de comandos de teclado.
